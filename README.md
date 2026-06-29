@@ -10,11 +10,6 @@ graph TD
     D -->|Aplica reglas de negocio| E(Service)
     E -->|Habla con el ORM / JPA| F(Repository)
     F -->|Persistencia física| G[(Base de Datos - PostgreSQL)]
-
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#bbf,stroke:#333,stroke-width:2px
-    style E fill:#bfb,stroke:#333,stroke-width:2px
-    style G fill:#fbb,stroke:#333,stroke-width:2px
 ```
 
 ## 📝 ¿Cómo explicar cada capa con tus propias palabras?
